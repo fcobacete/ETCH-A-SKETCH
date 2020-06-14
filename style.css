@@ -1,0 +1,43 @@
+/*Sketchpad's style*/
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 600px;
+    border: 45px solid salmon;
+    border-radius: 8px;
+    align-items: center;
+}
+
+#gridContainer {
+    display: grid;
+    height: 600px;
+    width: 600px;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.cell {
+    background: #b3ecff;
+    height: 37px;
+    border: 1px solid grey;
+}
+
+
+/*Menu's style*/
+
+#menu-ui {
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-heading {
+    font-weight: bold;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
